@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react()],
-    base: './', // Importante para o GitHub Pages (caminhos relativos)
+    base: '/site-maira/', // Importante para o GitHub Pages (caminhos relativos)
     define: {
       // Injeta a variável de ambiente no código durante o build
       // 'process.env.API_KEY': JSON.stringify(env.API_KEY)
