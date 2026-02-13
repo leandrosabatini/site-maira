@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <About />
         <Services />
-        <AIChat />
+        {/* <AIChat /> */}
         <Contact />
       </main>
       <Footer />

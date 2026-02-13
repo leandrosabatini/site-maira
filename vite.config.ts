@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     base: './', // Importante para o GitHub Pages (caminhos relativos)
     define: {
       // Injeta a variável de ambiente no código durante o build
-      'process.env.API_KEY': JSON.stringify(env.API_KEY)
+      // 'process.env.API_KEY': JSON.stringify(env.API_KEY)
     },
     build: {
       outDir: 'dist',

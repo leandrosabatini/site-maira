@@ -24,9 +24,9 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          # A chave é injetada aqui a partir dos Segredos do GitHub
-          API_KEY: ${{ secrets.API_KEY }}
+        # env:
+        #   # A chave é injetada aqui a partir dos Segredos do GitHub
+        #   API_KEY: ${{ secrets.API_KEY }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
